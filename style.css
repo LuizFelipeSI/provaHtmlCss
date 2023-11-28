@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'teko';
+    src: url('Teko/Teko-Regular.ttf') format('truetype');
+}
+
+ul {
+    width: 90%;
+}
+
+input {
+    border-radius: 3px;
+    width: 85%;
+}
+
+p {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+a {
+    border-radius: 2px;
+    height: 19px;
+    background-color: white;
+}
+
+li:hover {
+    background-color: beige;
+}
+
+img {
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 2px;
+    width: 15px;
+    height: 15px;
+}
+
+body {
+    font-family: 'teko';
+    background-color: cadetblue;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+#container1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#container2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mudaCor {
+    background-color: rgb(177, 242, 177);
+}
+
+#listaTarefas {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#nome {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    opacity: 0.4;
+}
